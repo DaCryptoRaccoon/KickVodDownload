@@ -61,7 +61,6 @@ The video will be downloaded as 'output.mp4' in the same directory.
 ## Acknowledgments
 
 - This script utilizes [FFmpeg](https://ffmpeg.org/) for downloading HLS video streams.
-- It makes use of the [ffmpeg-python](https://github.com/kkroening/ffmpeg-python) Python library for working with FFmpeg in Python.
 - Stream on Kick.com
 
 ## Author
