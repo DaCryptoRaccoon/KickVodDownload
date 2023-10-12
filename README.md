@@ -16,9 +16,10 @@ Before using this script, ensure you have the following components installed on 
 
 - [Python](https://www.python.org/downloads/)  Python 3.10+
 - [FFmpeg](https://ffmpeg.org/download.html)
-- Python libraries: `requests` and `ffmpeg-python`. You can install them using pip:
+- Python libraries: `requests` and `ffmpeg-python` and `ffmpeg` . You can install them using the commands below :
 
 pip3 install requests ffmpeg-python
+sudo apt-get install ffmpeg
 
 ## How to get your Kick URL
 
