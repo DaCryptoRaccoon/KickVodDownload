@@ -9,7 +9,7 @@ Easy Simple Way To Download Your Kick.com Vod's
 ## Introduction
 
 Kick.com VOD Downloader is a Python script designed for downloading videos from an HLS stream and saving them in MP4 format. This script fetches the highest quality variant playlist from the provided HLS stream URL and uses FFmpeg for video download.
-
+![image](https://github.com/DaCryptoRaccoon/KickVodDownload/assets/129953346/02ef1a4a-c2e0-4c98-8ea6-a07c8ed55bbd)
 ## Prerequisites
 
 Before using this script, ensure you have the following components installed on your system:
