@@ -1,7 +1,7 @@
 # Kick.com Video Downloader
 Easy Simple Way To Download Your Kick.com Vod's 
 
-![GitHub](https://img.shields.io/github/license/your-username/hls-video-downloader)
+![GitHub](https://img.shields.io/github/license/DaCryptoRaccoon/KickVodDownload/blob/main/LICENSE)
 
 ## Introduction
 
