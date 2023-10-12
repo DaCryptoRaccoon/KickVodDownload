@@ -24,7 +24,7 @@ pip3 install requests ffmpeg-python
 
 1. Clone this repository to your local machine:
 
-git clone https://github.com/
+git clone https://github.com/](https://github.com/DaCryptoRaccoon/KickVodDownload.git
 
 2. Navigate to the project directory:
 
