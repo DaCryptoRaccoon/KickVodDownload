@@ -20,6 +20,26 @@ Before using this script, ensure you have the following components installed on 
 
 pip3 install requests ffmpeg-python
 
+## How to get your Kick URL
+
+Open your browser and press F12
+
+Click the "Network" tab
+
+Load the replay in your browser
+
+In the network tab, search for m3u8
+
+![image](https://github.com/DaCryptoRaccoon/KickVodDownload/assets/129953346/7e4a8c0f-fad6-49f8-a39d-08328015e4a9)
+
+![image](https://github.com/DaCryptoRaccoon/KickVodDownload/assets/129953346/3b311c59-cf47-4b14-b224-1ce4899b004f)
+
+Right Click the file master.m3u8 and select Copy Link Address
+
+![image](https://github.com/DaCryptoRaccoon/KickVodDownload/assets/129953346/3262d68e-0338-411a-8d1d-e9ec791b6e30)
+
+Paste the URL into he script and save it then use the guide below to start the process. 
+
 ## Usage
 
 1. Clone this repository to your local machine:
