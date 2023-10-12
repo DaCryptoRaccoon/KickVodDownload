@@ -44,7 +44,7 @@ Paste the URL into he script and save it then use the guide below to start the p
 
 1. Clone this repository to your local machine:
 
-git clone https://github.com/](https://github.com/DaCryptoRaccoon/KickVodDownload.git
+git clone https://github.com/DaCryptoRaccoon/KickVodDownload.git
 
 2. Navigate to the project directory:
 
