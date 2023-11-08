@@ -1,10 +1,8 @@
-## Kick VOD Downloader & Converter
-## Da Crypto Raccoon - Kick.com
 import requests
 import ffmpeg
 
-# Define your kick master.m3u8 file here (ADD YOUR KICK m3u8 HERE)
-url = "https://kick.com/Your/m3u8/File/Here/master.m3u8"
+# Define the HLS stream URL
+url = "https://stream.kick.com/ivs/v1/your_vod_link_here/master.m3u8"
 
 # Send an HTTP GET request to the HLS stream URL
 response = requests.get(url)
@@ -22,10 +20,12 @@ if response.status_code == 200:
         # Create a new HLS stream URL for the variant playlist
         variant_url = '/'.join(url.split('/')[:-1]) + '/' + variant_url
 
-        # Use ffmpeg-python to download the video
-        ffmpeg.input(variant_url).output('output.mp4').run(overwrite_output=True)
+        # Adjust the FFmpeg encoding settings for higher quality
+        input_stream = ffmpeg.input(variant_url)
+        output_stream = ffmpeg.output(input_stream, 'output.mp4', **{'c:v': 'libx264', 'crf': 23, 'preset': 'slow', 'movflags': 'faststart'})
+        ffmpeg.run(output_stream, overwrite_output=True)
 
-        print("Video downloaded successfully as 'output.mp4'.")
+        print("Video downloaded successfully as 'output.mp4' with improved encoding settings.")
     else:
         print("No variant playlist found in the master playlist.")
 else:
